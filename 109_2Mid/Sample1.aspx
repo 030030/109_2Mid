@@ -21,7 +21,7 @@
             <asp:RadioButton ID="cb_Other" runat="server" GroupName="rgb_interest" Text="其他" Font-Size="X-Large" /><br/>
             <asp:Label ID="Label2" runat="server" Text="其他連結" Font-Size="X-Large"></asp:Label>
             <asp:HyperLink ID="HyperLink1" runat="server" ImageUrl="~/aws-brands.svg" NavigateUrl="https://aws.amazon.com/tw/">HyperLink</asp:HyperLink><br/>
-            <asp:Button ID="Button1" runat="server" Text="送出" Height="30px" Width="80px" />
+            <asp:Button ID="Button1" runat="server" Text="送出" Height="30px" Width="80px" PostBackUrl="~/Sample1Com.aspx" />
         </div>
     </form>
 </body>
